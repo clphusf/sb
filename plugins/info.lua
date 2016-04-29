@@ -1,5 +1,5 @@
 do
-local AmirSbss = 122774063
+local DiMoN = 142266345
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -203,7 +203,7 @@ local function run(msg, matches)
 	 text = text..'Group name : '..msg.to.title..'\n'
      text = text..'Group ID : '..msg.to.id
     end
-	text = text..'\n\n#Sbss_Team'
+	text = text..'\n\n#DiMoN_TeAm'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
